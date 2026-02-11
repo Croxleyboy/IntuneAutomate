@@ -1,7 +1,7 @@
 # IntuneAutomateMobile
 Get your Microsoft Intune Insights quickly and on the go.
 
-![IntuneAutomate Mobile](IntuneAutomateMobile.png)
+![IntuneAutomate Dashboard](IntuneAutomateDashboard.png)
 
 # 🚀 Your Microsoft focused Intune Check-In App
 
