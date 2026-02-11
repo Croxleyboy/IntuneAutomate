@@ -1,0 +1,440 @@
+﻿ListSchema={"schemaXmlList":["<Field ID=\"{fa564e0f-0c70-4ab9-b863-0177e6ddd247}\" Type=\"Text\" Name=\"Title\" DisplayName=\"Title\" Required=\"FALSE\" SourceID=\"http://schemas.microsoft.com/sharepoint/v3\" StaticName=\"Title\" FromBaseType=\"TRUE\" CustomFormatter=\"\" EnforceUniqueValues=\"FALSE\" Indexed=\"FALSE\" MaxLength=\"255\" />","<Field AppendOnly=\"FALSE\" DisplayName=\"HTMLreport\" Format=\"Dropdown\" IsModern=\"TRUE\" IsolateStyles=\"FALSE\" Name=\"HTMLreport\" RichText=\"FALSE\" RichTextMode=\"Compatible\" Title=\"HTMLreport\" Type=\"Note\" ID=\"{f4d092b0-ea68-42d5-baaf-5f75c9013f88}\" StaticName=\"HTMLreport\" />","<Field ClientSideComponentId=\"00000000-0000-0000-0000-000000000000\" CustomFormatter=\"{&quot;elmType&quot;:&quot;div&quot;,&quot;style&quot;:{&quot;flex-wrap&quot;:&quot;wrap&quot;,&quot;display&quot;:&quot;flex&quot;},&quot;children&quot;:[{&quot;elmType&quot;:&quot;div&quot;,&quot;style&quot;:{&quot;box-sizing&quot;:&quot;border-box&quot;,&quot;padding&quot;:&quot;4px 8px 5px 8px&quot;,&quot;overflow&quot;:&quot;hidden&quot;,&quot;text-overflow&quot;:&quot;ellipsis&quot;,&quot;display&quot;:&quot;flex&quot;,&quot;border-radius&quot;:&quot;16px&quot;,&quot;height&quot;:&quot;24px&quot;,&quot;align-items&quot;:&quot;center&quot;,&quot;white-space&quot;:&quot;nowrap&quot;,&quot;margin&quot;:&quot;4px 4px 4px 4px&quot;},&quot;attributes&quot;:{&quot;class&quot;:{&quot;operator&quot;:&quot;:&quot;,&quot;operands&quot;:[{&quot;operator&quot;:&quot;==&quot;,&quot;operands&quot;:[&quot;[$ReportType]&quot;,&quot;License&quot;]},&quot;sp-css-backgroundColor-BgCornflowerBlue sp-css-color-CornflowerBlueFont sp-css-color-CornflowerBlueFont&quot;,{&quot;operator&quot;:&quot;:&quot;,&quot;operands&quot;:[{&quot;operator&quot;:&quot;==&quot;,&quot;operands&quot;:[&quot;[$ReportType]&quot;,&quot;APPS&quot;]},&quot;sp-css-backgroundColor-BgMintGreen sp-css-color-MintGreenFont sp-css-color-MintGreenFont&quot;,{&quot;operator&quot;:&quot;:&quot;,&quot;operands&quot;:[{&quot;operator&quot;:&quot;==&quot;,&quot;operands&quot;:[&quot;[$ReportType]&quot;,&quot;&quot;]},&quot;&quot;,{&quot;operator&quot;:&quot;:&quot;,&quot;operands&quot;:[{&quot;operator&quot;:&quot;==&quot;,&quot;operands&quot;:[&quot;[$ReportType]&quot;,&quot;Device&quot;]},&quot;sp-css-backgroundColor-BgGold sp-css-color-GoldFont sp-css-color-GoldFont&quot;,{&quot;operator&quot;:&quot;:&quot;,&quot;operands&quot;:[{&quot;operator&quot;:&quot;==&quot;,&quot;operands&quot;:[&quot;[$ReportType]&quot;,&quot;Compliance&quot;]},&quot;sp-css-backgroundColor-BgCoral sp-css-color-CoralFont sp-css-color-CoralFont&quot;,{&quot;operator&quot;:&quot;:&quot;,&quot;operands&quot;:[{&quot;operator&quot;:&quot;==&quot;,&quot;operands&quot;:[&quot;[$ReportType]&quot;,&quot;Config&quot;]},&quot;sp-css-backgroundColor-BgDustRose sp-css-color-DustRoseFont sp-css-color-DustRoseFont&quot;,{&quot;operator&quot;:&quot;:&quot;,&quot;operands&quot;:[{&quot;operator&quot;:&quot;==&quot;,&quot;operands&quot;:[&quot;[$ReportType]&quot;,&quot;AppSettings&quot;]},&quot;sp-css-backgroundColor-BgCyan sp-field-fontSizeSmall sp-css-color-CyanFont sp-css-color-CyanFont&quot;,&quot;sp-field-borderAllRegular sp-field-borderAllSolid sp-css-borderColor-neutralSecondary&quot;]}]}]}]}]}]}]}},&quot;children&quot;:[{&quot;elmType&quot;:&quot;span&quot;,&quot;style&quot;:{&quot;overflow&quot;:&quot;hidden&quot;,&quot;text-overflow&quot;:&quot;ellipsis&quot;,&quot;padding&quot;:&quot;0 3px&quot;},&quot;txtContent&quot;:&quot;[$ReportType]&quot;,&quot;attributes&quot;:{&quot;class&quot;:{&quot;operator&quot;:&quot;:&quot;,&quot;operands&quot;:[{&quot;operator&quot;:&quot;==&quot;,&quot;operands&quot;:[&quot;[$ReportType]&quot;,&quot;License&quot;]},&quot;sp-css-color-CornflowerBlueFont&quot;,{&quot;operator&quot;:&quot;:&quot;,&quot;operands&quot;:[{&quot;operator&quot;:&quot;==&quot;,&quot;operands&quot;:[&quot;[$ReportType]&quot;,&quot;APPS&quot;]},&quot;sp-css-color-MintGreenFont&quot;,{&quot;operator&quot;:&quot;:&quot;,&quot;operands&quot;:[{&quot;operator&quot;:&quot;==&quot;,&quot;operands&quot;:[&quot;[$ReportType]&quot;,&quot;&quot;]},&quot;&quot;,{&quot;operator&quot;:&quot;:&quot;,&quot;operands&quot;:[{&quot;operator&quot;:&quot;==&quot;,&quot;operands&quot;:[&quot;[$ReportType]&quot;,&quot;Device&quot;]},&quot;sp-css-color-GoldFont&quot;,{&quot;operator&quot;:&quot;:&quot;,&quot;operands&quot;:[{&quot;operator&quot;:&quot;==&quot;,&quot;operands&quot;:[&quot;[$ReportType]&quot;,&quot;Compliance&quot;]},&quot;sp-css-color-CoralFont&quot;,{&quot;operator&quot;:&quot;:&quot;,&quot;operands&quot;:[{&quot;operator&quot;:&quot;==&quot;,&quot;operands&quot;:[&quot;[$ReportType]&quot;,&quot;Config&quot;]},&quot;sp-css-color-DustRoseFont&quot;,{&quot;operator&quot;:&quot;:&quot;,&quot;operands&quot;:[{&quot;operator&quot;:&quot;==&quot;,&quot;operands&quot;:[&quot;[$ReportType]&quot;,&quot;AppSettings&quot;]},&quot;sp-field-fontSizeSmall sp-css-color-CyanFont&quot;,&quot;&quot;]}]}]}]}]}]}]}}}]}],&quot;templateId&quot;:&quot;BgColorChoicePill&quot;}\" DisplayName=\"ReportType\" FillInChoice=\"FALSE\" Format=\"Dropdown\" Name=\"ReportType\" Title=\"ReportType\" Type=\"Choice\" ID=\"{4e42c769-fc5e-4661-a191-7c76b1c4354e}\" StaticName=\"ReportType\"><CHOICES><CHOICE>License</CHOICE><CHOICE>APPS</CHOICE><CHOICE>Device</CHOICE><CHOICE>Compliance</CHOICE><CHOICE>Config</CHOICE><CHOICE>AppSettings</CHOICE></CHOICES></Field>","<Field CommaSeparator=\"TRUE\" CustomUnitOnRight=\"TRUE\" DisplayName=\"TotalEnrolled\" Format=\"Dropdown\" IsModern=\"TRUE\" Name=\"TotalEnrolled\" Percentage=\"FALSE\" Title=\"TotalEnrolled\" Type=\"Number\" Unit=\"None\" ID=\"{23a1ce31-0909-47e6-ac81-5a42860a4372}\" StaticName=\"TotalEnrolled\"><Default>0</Default></Field>","<Field CommaSeparator=\"TRUE\" CustomUnitOnRight=\"TRUE\" DisplayName=\"MDMEnrolled\" Format=\"Dropdown\" IsModern=\"TRUE\" Name=\"MDMEnrolled\" Percentage=\"FALSE\" Title=\"MDMEnrolled\" Type=\"Number\" Unit=\"None\" ID=\"{f9d6a95f-c06f-46e5-a9a4-7215cc0e1d75}\" StaticName=\"MDMEnrolled\"><Default>0</Default></Field>","<Field CommaSeparator=\"TRUE\" CustomUnitOnRight=\"TRUE\" DisplayName=\"OSWindows\" Format=\"Dropdown\" IsModern=\"TRUE\" Name=\"OSWindows\" Percentage=\"FALSE\" Title=\"OSWindows\" Type=\"Number\" Unit=\"None\" ID=\"{9dae472d-3861-46a5-a02b-4551cb4d31dc}\" StaticName=\"OSWindows\"><Default>0</Default></Field>","<Field CommaSeparator=\"TRUE\" CustomUnitOnRight=\"TRUE\" DisplayName=\"OSMac\" Format=\"Dropdown\" IsModern=\"TRUE\" Name=\"OSMac\" Percentage=\"FALSE\" Title=\"OSMac\" Type=\"Number\" Unit=\"None\" ID=\"{6fed40e7-9144-449d-bf8a-f2f2dc3b04f5}\" StaticName=\"OSMac\" />","<Field CommaSeparator=\"TRUE\" CustomUnitOnRight=\"TRUE\" DisplayName=\"OSAndroid\" Format=\"Dropdown\" IsModern=\"TRUE\" Name=\"OSAndroid\" Percentage=\"FALSE\" Title=\"OSAndroid\" Type=\"Number\" Unit=\"None\" ID=\"{67d3dcf2-c37f-495b-aca1-0e82b2c1cbab}\" StaticName=\"OSAndroid\"><Default>0</Default></Field>","<Field CommaSeparator=\"TRUE\" CustomUnitOnRight=\"TRUE\" DisplayName=\"OSIphone\" Format=\"Dropdown\" IsModern=\"TRUE\" Name=\"OSIphone\" Percentage=\"FALSE\" Title=\"OSIphone\" Type=\"Number\" Unit=\"None\" ID=\"{7ac6a711-b6a1-40ba-844d-90d8fadad94a}\" StaticName=\"OSIphone\"><Default>0</Default></Field>","<Field CommaSeparator=\"TRUE\" CustomUnitOnRight=\"TRUE\" DisplayName=\"CompliantDevices\" Format=\"Dropdown\" IsModern=\"TRUE\" Name=\"CompliantDevices\" Percentage=\"FALSE\" Title=\"CompliantDevices\" Type=\"Number\" Unit=\"None\" ID=\"{be861068-5d19-415e-a634-91ef03f48277}\" StaticName=\"CompliantDevices\"><Default>0</Default></Field>","<Field CommaSeparator=\"TRUE\" CustomUnitOnRight=\"TRUE\" DisplayName=\"NonCompliantDevices\" Format=\"Dropdown\" IsModern=\"TRUE\" Name=\"NonCompliantDevices\" Percentage=\"FALSE\" Title=\"NonCompliantDevices\" Type=\"Number\" Unit=\"None\" ID=\"{18feb1ab-e3b5-4f21-b071-d569d2c3cf0d}\" StaticName=\"NonCompliantDevices\"><Default>0</Default></Field>","<Field CommaSeparator=\"TRUE\" CustomUnitOnRight=\"TRUE\" DisplayName=\"WinConfigPolicies\" Format=\"Dropdown\" IsModern=\"TRUE\" Name=\"WinConfigPolicies\" Percentage=\"FALSE\" Title=\"WinConfigPolicies\" Type=\"Number\" Unit=\"None\" ID=\"{ebb1cf81-51c0-48e3-a5f1-f9a5ecf3cee7}\" StaticName=\"WinConfigPolicies\" />","<Field CommaSeparator=\"TRUE\" CustomUnitOnRight=\"TRUE\" DisplayName=\"iOSConfigPolicies\" Format=\"Dropdown\" IsModern=\"TRUE\" Name=\"iOSConfigPolicies\" Percentage=\"FALSE\" Title=\"iOSConfigPolicies\" Type=\"Number\" Unit=\"None\" ID=\"{6cd99a0f-cd55-4d93-b2a2-b963eee1dd3a}\" StaticName=\"iOSConfigPolicies\" />","<Field CommaSeparator=\"TRUE\" CustomUnitOnRight=\"TRUE\" DisplayName=\"AndroidConfigPolicies\" Format=\"Dropdown\" IsModern=\"TRUE\" Name=\"AndroidConfigPolicies\" Percentage=\"FALSE\" Title=\"AndroidConfigPolicies\" Type=\"Number\" Unit=\"None\" ID=\"{96f279e1-c148-47ae-99ae-34cd28cbeef2}\" StaticName=\"AndroidConfigPolicies\" />","<Field ClientSideComponentId=\"00000000-0000-0000-0000-000000000000\" CommaSeparator=\"TRUE\" CustomUnitOnRight=\"TRUE\" DisplayName=\"numApps\" Format=\"Dropdown\" Name=\"numApps\" Percentage=\"FALSE\" Title=\"numApps\" Type=\"Number\" Unit=\"None\" ID=\"{00a6c562-1e6a-4f2b-981f-e972caa328bf}\" StaticName=\"numApps\"><Default>0</Default></Field>","<Field ClientSideComponentId=\"00000000-0000-0000-0000-000000000000\" CommaSeparator=\"TRUE\" CustomUnitOnRight=\"TRUE\" DisplayName=\"numLicenses\" Format=\"Dropdown\" Name=\"numLicenses\" Percentage=\"FALSE\" Title=\"numLicenses\" Type=\"Number\" Unit=\"None\" ID=\"{acf3698f-c46b-4ceb-ad31-29327380eaf7}\" StaticName=\"numLicenses\"><Default>0</Default></Field>","<Field ClientSideComponentId=\"00000000-0000-0000-0000-000000000000\" CommaSeparator=\"TRUE\" CustomUnitOnRight=\"TRUE\" DisplayName=\"macOSConfigPolicies\" Format=\"Dropdown\" Name=\"maOSConfigPolicies\" Percentage=\"FALSE\" Title=\"macOSConfigPolicies\" Type=\"Number\" Unit=\"None\" ID=\"{b825db5e-609c-4ebc-a740-04d5c680e48c}\" StaticName=\"maOSConfigPolicies\"><Default>0</Default></Field>","<Field AppendOnly=\"FALSE\" DisplayName=\"CompliancePolicies\" Format=\"Dropdown\" IsModern=\"TRUE\" IsolateStyles=\"FALSE\" Name=\"CompliancePolicies\" RichText=\"FALSE\" RichTextMode=\"Compatible\" Title=\"CompliancePolicies\" Type=\"Note\" ID=\"{96ac767b-76f1-41b0-a6e8-544c57cffd6a}\" StaticName=\"CompliancePolicies\" />","<Field CommaSeparator=\"TRUE\" CustomUnitOnRight=\"TRUE\" DisplayName=\"numCompliance\" Format=\"Dropdown\" IsModern=\"TRUE\" Name=\"numCompliance\" Percentage=\"FALSE\" Title=\"numCompliance\" Type=\"Number\" Unit=\"None\" ID=\"{b33984dd-a2b4-4009-859a-621d984a01a1}\" StaticName=\"numCompliance\" />","<Field CommaSeparator=\"TRUE\" CustomUnitOnRight=\"TRUE\" DisplayName=\"WinApps\" Format=\"Dropdown\" IsModern=\"TRUE\" Name=\"WinApps\" Percentage=\"FALSE\" Title=\"WinApps\" Type=\"Number\" Unit=\"None\" ID=\"{402f28e1-b6be-4ded-bfe1-bfd17a8ac40a}\" StaticName=\"WinApps\"><Default>0</Default></Field>","<Field CommaSeparator=\"TRUE\" CustomUnitOnRight=\"TRUE\" DisplayName=\"AndroidApps\" Format=\"Dropdown\" IsModern=\"TRUE\" Name=\"AndroidApps\" Percentage=\"FALSE\" Title=\"AndroidApps\" Type=\"Number\" Unit=\"None\" ID=\"{d056cb15-8ce1-4e62-97fe-279f8c47535a}\" StaticName=\"AndroidApps\"><Default>0</Default></Field>","<Field CommaSeparator=\"TRUE\" CustomUnitOnRight=\"TRUE\" DisplayName=\"iOSApps\" Format=\"Dropdown\" IsModern=\"TRUE\" Name=\"iOSApps\" Percentage=\"FALSE\" Title=\"iOSApps\" Type=\"Number\" Unit=\"None\" ID=\"{ade8273b-06a3-4af8-aa47-2abfde1d87c2}\" StaticName=\"iOSApps\"><Default>0</Default></Field>","<Field CommaSeparator=\"TRUE\" CustomUnitOnRight=\"TRUE\" DisplayName=\"macOSApps\" Format=\"Dropdown\" IsModern=\"TRUE\" Name=\"macOSApps\" Percentage=\"FALSE\" Title=\"macOSApps\" Type=\"Number\" Unit=\"None\" ID=\"{44bdecec-e69c-4c70-a8f7-f841a1c8ba33}\" StaticName=\"macOSApps\"><Default>0</Default></Field>","<Field ClientSideComponentId=\"00000000-0000-0000-0000-000000000000\" CustomFormatter=\"{&quot;elmType&quot;:&quot;div&quot;,&quot;style&quot;:{&quot;flex-wrap&quot;:&quot;wrap&quot;,&quot;display&quot;:&quot;flex&quot;},&quot;children&quot;:[{&quot;elmType&quot;:&quot;div&quot;,&quot;style&quot;:{&quot;box-sizing&quot;:&quot;border-box&quot;,&quot;padding&quot;:&quot;4px 8px 5px 8px&quot;,&quot;overflow&quot;:&quot;hidden&quot;,&quot;text-overflow&quot;:&quot;ellipsis&quot;,&quot;display&quot;:&quot;flex&quot;,&quot;border-radius&quot;:&quot;16px&quot;,&quot;height&quot;:&quot;24px&quot;,&quot;align-items&quot;:&quot;center&quot;,&quot;white-space&quot;:&quot;nowrap&quot;,&quot;margin&quot;:&quot;4px 4px 4px 4px&quot;},&quot;attributes&quot;:{&quot;class&quot;:{&quot;operator&quot;:&quot;:&quot;,&quot;operands&quot;:[{&quot;operator&quot;:&quot;==&quot;,&quot;operands&quot;:[&quot;[$DeviceSettings]&quot;,&quot;true&quot;]},&quot;sp-css-backgroundColor-BgCornflowerBlue sp-css-color-CornflowerBlueFont sp-css-color-CornflowerBlueFont&quot;,{&quot;operator&quot;:&quot;:&quot;,&quot;operands&quot;:[{&quot;operator&quot;:&quot;==&quot;,&quot;operands&quot;:[&quot;[$DeviceSettings]&quot;,&quot;false&quot;]},&quot;sp-css-backgroundColor-BgMintGreen sp-css-color-MintGreenFont sp-css-color-MintGreenFont&quot;,{&quot;operator&quot;:&quot;:&quot;,&quot;operands&quot;:[{&quot;operator&quot;:&quot;==&quot;,&quot;operands&quot;:[&quot;[$DeviceSettings]&quot;,&quot;&quot;]},&quot;&quot;,&quot;sp-field-borderAllRegular sp-field-borderAllSolid sp-css-borderColor-neutralSecondary&quot;]}]}]}},&quot;children&quot;:[{&quot;elmType&quot;:&quot;span&quot;,&quot;style&quot;:{&quot;overflow&quot;:&quot;hidden&quot;,&quot;text-overflow&quot;:&quot;ellipsis&quot;,&quot;padding&quot;:&quot;0 3px&quot;},&quot;txtContent&quot;:&quot;[$DeviceSettings]&quot;,&quot;attributes&quot;:{&quot;class&quot;:{&quot;operator&quot;:&quot;:&quot;,&quot;operands&quot;:[{&quot;operator&quot;:&quot;==&quot;,&quot;operands&quot;:[&quot;[$DeviceSettings]&quot;,&quot;true&quot;]},&quot;sp-css-color-CornflowerBlueFont&quot;,{&quot;operator&quot;:&quot;:&quot;,&quot;operands&quot;:[{&quot;operator&quot;:&quot;==&quot;,&quot;operands&quot;:[&quot;[$DeviceSettings]&quot;,&quot;false&quot;]},&quot;sp-css-color-MintGreenFont&quot;,{&quot;operator&quot;:&quot;:&quot;,&quot;operands&quot;:[{&quot;operator&quot;:&quot;==&quot;,&quot;operands&quot;:[&quot;[$DeviceSettings]&quot;,&quot;&quot;]},&quot;&quot;,&quot;&quot;]}]}]}}}]}],&quot;templateId&quot;:&quot;BgColorChoicePill&quot;}\" DisplayName=\"DeviceSettings\" FillInChoice=\"FALSE\" Format=\"Dropdown\" Name=\"DeviceSettings\" Title=\"DeviceSettings\" Type=\"Choice\" ID=\"{de5d4f41-8643-498d-bf6d-86429386e198}\" StaticName=\"DeviceSettings\"><CHOICES><CHOICE>true</CHOICE><CHOICE>false</CHOICE></CHOICES><Default>true</Default></Field>","<Field ClientSideComponentId=\"00000000-0000-0000-0000-000000000000\" CustomFormatter=\"{&quot;elmType&quot;:&quot;div&quot;,&quot;style&quot;:{&quot;flex-wrap&quot;:&quot;wrap&quot;,&quot;display&quot;:&quot;flex&quot;},&quot;children&quot;:[{&quot;elmType&quot;:&quot;div&quot;,&quot;style&quot;:{&quot;box-sizing&quot;:&quot;border-box&quot;,&quot;padding&quot;:&quot;4px 8px 5px 8px&quot;,&quot;overflow&quot;:&quot;hidden&quot;,&quot;text-overflow&quot;:&quot;ellipsis&quot;,&quot;display&quot;:&quot;flex&quot;,&quot;border-radius&quot;:&quot;16px&quot;,&quot;height&quot;:&quot;24px&quot;,&quot;align-items&quot;:&quot;center&quot;,&quot;white-space&quot;:&quot;nowrap&quot;,&quot;margin&quot;:&quot;4px 4px 4px 4px&quot;},&quot;attributes&quot;:{&quot;class&quot;:{&quot;operator&quot;:&quot;:&quot;,&quot;operands&quot;:[{&quot;operator&quot;:&quot;==&quot;,&quot;operands&quot;:[&quot;[$AppSettings]&quot;,&quot;true&quot;]},&quot;sp-css-backgroundColor-BgCornflowerBlue sp-css-color-CornflowerBlueFont sp-css-color-CornflowerBlueFont&quot;,{&quot;operator&quot;:&quot;:&quot;,&quot;operands&quot;:[{&quot;operator&quot;:&quot;==&quot;,&quot;operands&quot;:[&quot;[$AppSettings]&quot;,&quot;false&quot;]},&quot;sp-css-backgroundColor-BgMintGreen sp-css-color-MintGreenFont sp-css-color-MintGreenFont&quot;,{&quot;operator&quot;:&quot;:&quot;,&quot;operands&quot;:[{&quot;operator&quot;:&quot;==&quot;,&quot;operands&quot;:[&quot;[$AppSettings]&quot;,&quot;&quot;]},&quot;&quot;,&quot;sp-field-borderAllRegular sp-field-borderAllSolid sp-css-borderColor-neutralSecondary&quot;]}]}]}},&quot;children&quot;:[{&quot;elmType&quot;:&quot;span&quot;,&quot;style&quot;:{&quot;overflow&quot;:&quot;hidden&quot;,&quot;text-overflow&quot;:&quot;ellipsis&quot;,&quot;padding&quot;:&quot;0 3px&quot;},&quot;txtContent&quot;:&quot;[$AppSettings]&quot;,&quot;attributes&quot;:{&quot;class&quot;:{&quot;operator&quot;:&quot;:&quot;,&quot;operands&quot;:[{&quot;operator&quot;:&quot;==&quot;,&quot;operands&quot;:[&quot;[$AppSettings]&quot;,&quot;true&quot;]},&quot;sp-css-color-CornflowerBlueFont&quot;,{&quot;operator&quot;:&quot;:&quot;,&quot;operands&quot;:[{&quot;operator&quot;:&quot;==&quot;,&quot;operands&quot;:[&quot;[$AppSettings]&quot;,&quot;false&quot;]},&quot;sp-css-color-MintGreenFont&quot;,{&quot;operator&quot;:&quot;:&quot;,&quot;operands&quot;:[{&quot;operator&quot;:&quot;==&quot;,&quot;operands&quot;:[&quot;[$AppSettings]&quot;,&quot;&quot;]},&quot;&quot;,&quot;&quot;]}]}]}}}]}],&quot;templateId&quot;:&quot;BgColorChoicePill&quot;}\" DisplayName=\"AppSettings\" FillInChoice=\"FALSE\" Format=\"Dropdown\" Name=\"AppSettings\" Title=\"AppSettings\" Type=\"Choice\" ID=\"{8e634d07-a36c-4f05-ac89-e05fda6d68f0}\" StaticName=\"AppSettings\"><CHOICES><CHOICE>true</CHOICE><CHOICE>false</CHOICE></CHOICES><Default>true</Default></Field>","<Field ClientSideComponentId=\"00000000-0000-0000-0000-000000000000\" CustomFormatter=\"{&quot;elmType&quot;:&quot;div&quot;,&quot;style&quot;:{&quot;flex-wrap&quot;:&quot;wrap&quot;,&quot;display&quot;:&quot;flex&quot;},&quot;children&quot;:[{&quot;elmType&quot;:&quot;div&quot;,&quot;style&quot;:{&quot;box-sizing&quot;:&quot;border-box&quot;,&quot;padding&quot;:&quot;4px 8px 5px 8px&quot;,&quot;overflow&quot;:&quot;hidden&quot;,&quot;text-overflow&quot;:&quot;ellipsis&quot;,&quot;display&quot;:&quot;flex&quot;,&quot;border-radius&quot;:&quot;16px&quot;,&quot;height&quot;:&quot;24px&quot;,&quot;align-items&quot;:&quot;center&quot;,&quot;white-space&quot;:&quot;nowrap&quot;,&quot;margin&quot;:&quot;4px 4px 4px 4px&quot;},&quot;attributes&quot;:{&quot;class&quot;:{&quot;operator&quot;:&quot;:&quot;,&quot;operands&quot;:[{&quot;operator&quot;:&quot;==&quot;,&quot;operands&quot;:[&quot;[$LicenseSettings]&quot;,&quot;true&quot;]},&quot;sp-css-backgroundColor-BgCornflowerBlue sp-css-color-CornflowerBlueFont sp-css-color-CornflowerBlueFont&quot;,{&quot;operator&quot;:&quot;:&quot;,&quot;operands&quot;:[{&quot;operator&quot;:&quot;==&quot;,&quot;operands&quot;:[&quot;[$LicenseSettings]&quot;,&quot;false&quot;]},&quot;sp-css-backgroundColor-BgMintGreen sp-css-color-MintGreenFont sp-css-color-MintGreenFont&quot;,{&quot;operator&quot;:&quot;:&quot;,&quot;operands&quot;:[{&quot;operator&quot;:&quot;==&quot;,&quot;operands&quot;:[&quot;[$LicenseSettings]&quot;,&quot;&quot;]},&quot;&quot;,&quot;sp-field-borderAllRegular sp-field-borderAllSolid sp-css-borderColor-neutralSecondary&quot;]}]}]}},&quot;children&quot;:[{&quot;elmType&quot;:&quot;span&quot;,&quot;style&quot;:{&quot;overflow&quot;:&quot;hidden&quot;,&quot;text-overflow&quot;:&quot;ellipsis&quot;,&quot;padding&quot;:&quot;0 3px&quot;},&quot;txtContent&quot;:&quot;[$LicenseSettings]&quot;,&quot;attributes&quot;:{&quot;class&quot;:{&quot;operator&quot;:&quot;:&quot;,&quot;operands&quot;:[{&quot;operator&quot;:&quot;==&quot;,&quot;operands&quot;:[&quot;[$LicenseSettings]&quot;,&quot;true&quot;]},&quot;sp-css-color-CornflowerBlueFont&quot;,{&quot;operator&quot;:&quot;:&quot;,&quot;operands&quot;:[{&quot;operator&quot;:&quot;==&quot;,&quot;operands&quot;:[&quot;[$LicenseSettings]&quot;,&quot;false&quot;]},&quot;sp-css-color-MintGreenFont&quot;,{&quot;operator&quot;:&quot;:&quot;,&quot;operands&quot;:[{&quot;operator&quot;:&quot;==&quot;,&quot;operands&quot;:[&quot;[$LicenseSettings]&quot;,&quot;&quot;]},&quot;&quot;,&quot;&quot;]}]}]}}}]}],&quot;templateId&quot;:&quot;BgColorChoicePill&quot;}\" DisplayName=\"LicenseSettings\" FillInChoice=\"FALSE\" Format=\"Dropdown\" Name=\"LicenseSettings\" Title=\"LicenseSettings\" Type=\"Choice\" ID=\"{4fe949c5-6b8e-46bd-8bb5-36d0064521d2}\" StaticName=\"LicenseSettings\"><CHOICES><CHOICE>true</CHOICE><CHOICE>false</CHOICE></CHOICES><Default>true</Default></Field>","<Field ClientSideComponentId=\"00000000-0000-0000-0000-000000000000\" CustomFormatter=\"{&quot;elmType&quot;:&quot;div&quot;,&quot;style&quot;:{&quot;flex-wrap&quot;:&quot;wrap&quot;,&quot;display&quot;:&quot;flex&quot;},&quot;children&quot;:[{&quot;elmType&quot;:&quot;div&quot;,&quot;style&quot;:{&quot;box-sizing&quot;:&quot;border-box&quot;,&quot;padding&quot;:&quot;4px 8px 5px 8px&quot;,&quot;overflow&quot;:&quot;hidden&quot;,&quot;text-overflow&quot;:&quot;ellipsis&quot;,&quot;display&quot;:&quot;flex&quot;,&quot;border-radius&quot;:&quot;16px&quot;,&quot;height&quot;:&quot;24px&quot;,&quot;align-items&quot;:&quot;center&quot;,&quot;white-space&quot;:&quot;nowrap&quot;,&quot;margin&quot;:&quot;4px 4px 4px 4px&quot;},&quot;attributes&quot;:{&quot;class&quot;:{&quot;operator&quot;:&quot;:&quot;,&quot;operands&quot;:[{&quot;operator&quot;:&quot;==&quot;,&quot;operands&quot;:[&quot;[$CpmplianceSettings]&quot;,&quot;true&quot;]},&quot;sp-css-backgroundColor-BgCornflowerBlue sp-css-color-CornflowerBlueFont sp-css-color-CornflowerBlueFont&quot;,{&quot;operator&quot;:&quot;:&quot;,&quot;operands&quot;:[{&quot;operator&quot;:&quot;==&quot;,&quot;operands&quot;:[&quot;[$CpmplianceSettings]&quot;,&quot;false&quot;]},&quot;sp-css-backgroundColor-BgMintGreen sp-css-color-MintGreenFont sp-css-color-MintGreenFont&quot;,{&quot;operator&quot;:&quot;:&quot;,&quot;operands&quot;:[{&quot;operator&quot;:&quot;==&quot;,&quot;operands&quot;:[&quot;[$CpmplianceSettings]&quot;,&quot;&quot;]},&quot;&quot;,&quot;sp-field-borderAllRegular sp-field-borderAllSolid sp-css-borderColor-neutralSecondary&quot;]}]}]}},&quot;children&quot;:[{&quot;elmType&quot;:&quot;span&quot;,&quot;style&quot;:{&quot;overflow&quot;:&quot;hidden&quot;,&quot;text-overflow&quot;:&quot;ellipsis&quot;,&quot;padding&quot;:&quot;0 3px&quot;},&quot;txtContent&quot;:&quot;[$CpmplianceSettings]&quot;,&quot;attributes&quot;:{&quot;class&quot;:{&quot;operator&quot;:&quot;:&quot;,&quot;operands&quot;:[{&quot;operator&quot;:&quot;==&quot;,&quot;operands&quot;:[&quot;[$CpmplianceSettings]&quot;,&quot;true&quot;]},&quot;sp-css-color-CornflowerBlueFont&quot;,{&quot;operator&quot;:&quot;:&quot;,&quot;operands&quot;:[{&quot;operator&quot;:&quot;==&quot;,&quot;operands&quot;:[&quot;[$CpmplianceSettings]&quot;,&quot;false&quot;]},&quot;sp-css-color-MintGreenFont&quot;,{&quot;operator&quot;:&quot;:&quot;,&quot;operands&quot;:[{&quot;operator&quot;:&quot;==&quot;,&quot;operands&quot;:[&quot;[$CpmplianceSettings]&quot;,&quot;&quot;]},&quot;&quot;,&quot;&quot;]}]}]}}}]}],&quot;templateId&quot;:&quot;BgColorChoicePill&quot;}\" DisplayName=\"ComplianceSettings\" FillInChoice=\"FALSE\" Format=\"Dropdown\" Name=\"CpmplianceSettings\" Title=\"ComplianceSettings\" Type=\"Choice\" ID=\"{ba0cedc9-2c0a-4681-9e2f-00578a6c4c1d}\" StaticName=\"CpmplianceSettings\"><CHOICES><CHOICE>true</CHOICE><CHOICE>false</CHOICE></CHOICES><Default>true</Default></Field>","<Field ClientSideComponentId=\"00000000-0000-0000-0000-000000000000\" CustomFormatter=\"{&quot;elmType&quot;:&quot;div&quot;,&quot;style&quot;:{&quot;flex-wrap&quot;:&quot;wrap&quot;,&quot;display&quot;:&quot;flex&quot;},&quot;children&quot;:[{&quot;elmType&quot;:&quot;div&quot;,&quot;style&quot;:{&quot;box-sizing&quot;:&quot;border-box&quot;,&quot;padding&quot;:&quot;4px 8px 5px 8px&quot;,&quot;overflow&quot;:&quot;hidden&quot;,&quot;text-overflow&quot;:&quot;ellipsis&quot;,&quot;display&quot;:&quot;flex&quot;,&quot;border-radius&quot;:&quot;16px&quot;,&quot;height&quot;:&quot;24px&quot;,&quot;align-items&quot;:&quot;center&quot;,&quot;white-space&quot;:&quot;nowrap&quot;,&quot;margin&quot;:&quot;4px 4px 4px 4px&quot;},&quot;attributes&quot;:{&quot;class&quot;:{&quot;operator&quot;:&quot;:&quot;,&quot;operands&quot;:[{&quot;operator&quot;:&quot;==&quot;,&quot;operands&quot;:[&quot;[$ConfigSettings]&quot;,&quot;true&quot;]},&quot;sp-css-backgroundColor-BgCornflowerBlue sp-css-color-CornflowerBlueFont sp-css-color-CornflowerBlueFont&quot;,{&quot;operator&quot;:&quot;:&quot;,&quot;operands&quot;:[{&quot;operator&quot;:&quot;==&quot;,&quot;operands&quot;:[&quot;[$ConfigSettings]&quot;,&quot;false&quot;]},&quot;sp-css-backgroundColor-BgMintGreen sp-css-color-MintGreenFont sp-css-color-MintGreenFont&quot;,{&quot;operator&quot;:&quot;:&quot;,&quot;operands&quot;:[{&quot;operator&quot;:&quot;==&quot;,&quot;operands&quot;:[&quot;[$ConfigSettings]&quot;,&quot;&quot;]},&quot;&quot;,&quot;sp-field-borderAllRegular sp-field-borderAllSolid sp-css-borderColor-neutralSecondary&quot;]}]}]}},&quot;children&quot;:[{&quot;elmType&quot;:&quot;span&quot;,&quot;style&quot;:{&quot;overflow&quot;:&quot;hidden&quot;,&quot;text-overflow&quot;:&quot;ellipsis&quot;,&quot;padding&quot;:&quot;0 3px&quot;},&quot;txtContent&quot;:&quot;[$ConfigSettings]&quot;,&quot;attributes&quot;:{&quot;class&quot;:{&quot;operator&quot;:&quot;:&quot;,&quot;operands&quot;:[{&quot;operator&quot;:&quot;==&quot;,&quot;operands&quot;:[&quot;[$ConfigSettings]&quot;,&quot;true&quot;]},&quot;sp-css-color-CornflowerBlueFont&quot;,{&quot;operator&quot;:&quot;:&quot;,&quot;operands&quot;:[{&quot;operator&quot;:&quot;==&quot;,&quot;operands&quot;:[&quot;[$ConfigSettings]&quot;,&quot;false&quot;]},&quot;sp-css-color-MintGreenFont&quot;,{&quot;operator&quot;:&quot;:&quot;,&quot;operands&quot;:[{&quot;operator&quot;:&quot;==&quot;,&quot;operands&quot;:[&quot;[$ConfigSettings]&quot;,&quot;&quot;]},&quot;&quot;,&quot;&quot;]}]}]}}}]}],&quot;templateId&quot;:&quot;BgColorChoicePill&quot;}\" DisplayName=\"ConfigSettings\" FillInChoice=\"FALSE\" Format=\"Dropdown\" Name=\"ConfigSettings\" Title=\"ConfigSettings\" Type=\"Choice\" ID=\"{ab5514ae-e496-4929-acd1-34c5abefdb32}\" StaticName=\"ConfigSettings\"><CHOICES><CHOICE>true</CHOICE><CHOICE>false</CHOICE></CHOICES><Default>true</Default></Field>","<Field ClientSideComponentId=\"00000000-0000-0000-0000-000000000000\" CustomFormatter=\"{&quot;elmType&quot;:&quot;div&quot;,&quot;style&quot;:{&quot;flex-wrap&quot;:&quot;wrap&quot;,&quot;display&quot;:&quot;flex&quot;},&quot;children&quot;:[{&quot;elmType&quot;:&quot;div&quot;,&quot;style&quot;:{&quot;box-sizing&quot;:&quot;border-box&quot;,&quot;padding&quot;:&quot;4px 8px 5px 8px&quot;,&quot;overflow&quot;:&quot;hidden&quot;,&quot;text-overflow&quot;:&quot;ellipsis&quot;,&quot;display&quot;:&quot;flex&quot;,&quot;border-radius&quot;:&quot;16px&quot;,&quot;height&quot;:&quot;24px&quot;,&quot;align-items&quot;:&quot;center&quot;,&quot;white-space&quot;:&quot;nowrap&quot;,&quot;margin&quot;:&quot;4px 4px 4px 4px&quot;},&quot;attributes&quot;:{&quot;class&quot;:{&quot;operator&quot;:&quot;:&quot;,&quot;operands&quot;:[{&quot;operator&quot;:&quot;==&quot;,&quot;operands&quot;:[&quot;[$ReportInterval]&quot;,&quot;30&quot;]},&quot;sp-css-backgroundColor-BgCornflowerBlue sp-css-color-CornflowerBlueFont sp-css-color-CornflowerBlueFont&quot;,{&quot;operator&quot;:&quot;:&quot;,&quot;operands&quot;:[{&quot;operator&quot;:&quot;==&quot;,&quot;operands&quot;:[&quot;[$ReportInterval]&quot;,&quot;60&quot;]},&quot;sp-css-backgroundColor-BgMintGreen sp-css-color-MintGreenFont sp-css-color-MintGreenFont&quot;,{&quot;operator&quot;:&quot;:&quot;,&quot;operands&quot;:[{&quot;operator&quot;:&quot;==&quot;,&quot;operands&quot;:[&quot;[$ReportInterval]&quot;,&quot;120&quot;]},&quot;sp-css-backgroundColor-BgGold sp-css-color-GoldFont sp-css-color-GoldFont&quot;,{&quot;operator&quot;:&quot;:&quot;,&quot;operands&quot;:[{&quot;operator&quot;:&quot;==&quot;,&quot;operands&quot;:[&quot;[$ReportInterval]&quot;,&quot;&quot;]},&quot;&quot;,{&quot;operator&quot;:&quot;:&quot;,&quot;operands&quot;:[{&quot;operator&quot;:&quot;==&quot;,&quot;operands&quot;:[&quot;[$ReportInterval]&quot;,&quot;240&quot;]},&quot;sp-css-backgroundColor-BgCoral sp-css-color-CoralFont sp-css-color-CoralFont&quot;,{&quot;operator&quot;:&quot;:&quot;,&quot;operands&quot;:[{&quot;operator&quot;:&quot;==&quot;,&quot;operands&quot;:[&quot;[$ReportInterval]&quot;,&quot;1440&quot;]},&quot;sp-css-backgroundColor-BgDustRose sp-css-color-DustRoseFont sp-css-color-DustRoseFont&quot;,{&quot;operator&quot;:&quot;:&quot;,&quot;operands&quot;:[{&quot;operator&quot;:&quot;==&quot;,&quot;operands&quot;:[&quot;[$ReportInterval]&quot;,&quot;10080&quot;]},&quot;sp-css-backgroundColor-BgCyan sp-css-color-CyanFont sp-css-color-CyanFont&quot;,&quot;sp-field-borderAllRegular sp-field-borderAllSolid sp-css-borderColor-neutralSecondary&quot;]}]}]}]}]}]}]}},&quot;children&quot;:[{&quot;elmType&quot;:&quot;span&quot;,&quot;style&quot;:{&quot;overflow&quot;:&quot;hidden&quot;,&quot;text-overflow&quot;:&quot;ellipsis&quot;,&quot;padding&quot;:&quot;0 3px&quot;},&quot;txtContent&quot;:&quot;[$ReportInterval]&quot;,&quot;attributes&quot;:{&quot;class&quot;:{&quot;operator&quot;:&quot;:&quot;,&quot;operands&quot;:[{&quot;operator&quot;:&quot;==&quot;,&quot;operands&quot;:[&quot;[$ReportInterval]&quot;,&quot;30&quot;]},&quot;sp-css-color-CornflowerBlueFont&quot;,{&quot;operator&quot;:&quot;:&quot;,&quot;operands&quot;:[{&quot;operator&quot;:&quot;==&quot;,&quot;operands&quot;:[&quot;[$ReportInterval]&quot;,&quot;60&quot;]},&quot;sp-css-color-MintGreenFont&quot;,{&quot;operator&quot;:&quot;:&quot;,&quot;operands&quot;:[{&quot;operator&quot;:&quot;==&quot;,&quot;operands&quot;:[&quot;[$ReportInterval]&quot;,&quot;120&quot;]},&quot;sp-css-color-GoldFont&quot;,{&quot;operator&quot;:&quot;:&quot;,&quot;operands&quot;:[{&quot;operator&quot;:&quot;==&quot;,&quot;operands&quot;:[&quot;[$ReportInterval]&quot;,&quot;&quot;]},&quot;&quot;,{&quot;operator&quot;:&quot;:&quot;,&quot;operands&quot;:[{&quot;operator&quot;:&quot;==&quot;,&quot;operands&quot;:[&quot;[$ReportInterval]&quot;,&quot;240&quot;]},&quot;sp-css-color-CoralFont&quot;,{&quot;operator&quot;:&quot;:&quot;,&quot;operands&quot;:[{&quot;operator&quot;:&quot;==&quot;,&quot;operands&quot;:[&quot;[$ReportInterval]&quot;,&quot;1440&quot;]},&quot;sp-css-color-DustRoseFont&quot;,{&quot;operator&quot;:&quot;:&quot;,&quot;operands&quot;:[{&quot;operator&quot;:&quot;==&quot;,&quot;operands&quot;:[&quot;[$ReportInterval]&quot;,&quot;10080&quot;]},&quot;sp-css-color-CyanFont&quot;,&quot;&quot;]}]}]}]}]}]}]}}}]}],&quot;templateId&quot;:&quot;BgColorChoicePill&quot;}\" DisplayName=\"ReportInterval\" FillInChoice=\"FALSE\" Format=\"Dropdown\" Name=\"ReportInterval\" Title=\"ReportInterval\" Type=\"Choice\" ID=\"{c36ec998-db66-44ad-9242-51c7b197e9e4}\" StaticName=\"ReportInterval\"><CHOICES><CHOICE>30</CHOICE><CHOICE>60</CHOICE><CHOICE>120</CHOICE><CHOICE>240</CHOICE><CHOICE>1440</CHOICE><CHOICE>10080</CHOICE></CHOICES></Field>","<Field AppendOnly=\"FALSE\" ClientSideComponentId=\"00000000-0000-0000-0000-000000000000\" DisplayName=\"NonComplianceHTML\" Format=\"Dropdown\" IsolateStyles=\"FALSE\" Name=\"NonComplianceHTML\" RichText=\"FALSE\" RichTextMode=\"Compatible\" Title=\"NonComplianceHTML\" Type=\"Note\" ID=\"{6f425679-f7c7-4706-ba80-cf2db7bc23d9}\" StaticName=\"NonComplianceHTML\" />","<Field DisplayName=\"LastTimeRun\" FriendlyDisplayFormat=\"Disabled\" Format=\"DateTime\" IsModern=\"TRUE\" Name=\"LastTimeRun\" Title=\"LastTimeRun\" Type=\"DateTime\" ID=\"{b3c2a608-be65-46d3-b55c-95819e3aec0d}\" StaticName=\"LastTimeRun\" />","<Field ID=\"{82642ec8-ef9b-478f-acf9-31f7d45fbc31}\" ReadOnly=\"TRUE\" Type=\"Computed\" Name=\"LinkTitle\" DisplayName=\"Title\" DisplayNameSrcField=\"Title\" ClassInfo=\"Menu\" AuthoringInfo=\"(linked to item with edit menu)\" ListItemMenuAllowed=\"Required\" LinkToItemAllowed=\"Prohibited\" SourceID=\"http://schemas.microsoft.com/sharepoint/v3\" StaticName=\"LinkTitle\" FromBaseType=\"TRUE\"><FieldRefs><FieldRef Name=\"Title\" /><FieldRef Name=\"LinkTitleNoMenu\" /><FieldRef Name=\"_EditMenuTableStart2\" /><FieldRef Name=\"_EditMenuTableEnd\" /></FieldRefs><DisplayPattern><FieldSwitch><Expr><GetVar Name=\"FreeForm\" /></Expr><Case Value=\"TRUE\"><Field Name=\"LinkTitleNoMenu\" /></Case><Default><HTML><![CDATA[<div class=\"ms-vb itx\" onmouseover=\"OnItem(this)\" CTXName=\"ctx]]></HTML><Field Name=\"_EditMenuTableStart2\" /><HTML><![CDATA[\">]]></HTML><Field Name=\"LinkTitleNoMenu\" /><HTML><![CDATA[</div>]]></HTML><HTML><![CDATA[<div class=\"s4-ctx\" onmouseover=\"OnChildItem(this.parentNode); return false;\">]]></HTML><HTML><![CDATA[<span>&nbsp;</span>]]></HTML><HTML><![CDATA[<a onfocus=\"OnChildItem(this.parentNode.parentNode); return false;\" onclick=\"PopMenuFromChevron(event); return false;\" href=\"javascript:;\" title=\"Open Menu\"></a>]]></HTML><HTML><![CDATA[<span>&nbsp;</span>]]></HTML><HTML><![CDATA[</div>]]></HTML></Default></FieldSwitch></DisplayPattern></Field>"]}
+"HTMLreport","ReportType","TotalEnrolled","MDMEnrolled","OSWindows","OSMac","OSAndroid","OSIphone","CompliantDevices","NonCompliantDevices","Created","WinConfigPolicies","iOSConfigPolicies","AndroidConfigPolicies","macOSConfigPolicies","numApps","numLicenses","CompliancePolicies","numCompliance","WinApps","AndroidApps","iOSApps","macOSApps","DeviceSettings","AppSettings","LicenseSettings","ComplianceSettings","ConfigSettings","ReportInterval","NonComplianceHTML","LastTimeRun"
+"Application Settings DO NOT Delete this record","AppSettings","0","0","0",,"0","0","0","0","2025-11-22T16:19:56Z",,,,"0","0","0",,,"0","0","0","0","false","true","true","true","true","120",,"2025-11-25T20:30:14Z"
+"
+<div style=""padding:20px; background-color:#06194a; font-family:Arial, sans-serif; color:#fff;"">
+  <div style=""display:flex; flex-wrap:wrap; gap:20px; margin-top:20px;"">
+    <div style=""flex:1; min-width:200px; background-color:#092162; padding:12px; border-radius:10px; color:white;"">
+      <h3 style=""color:white; font-size:20px; margin-bottom:6px;"">📱 Personal Devices</h3>
+      <p style=""font-size:24px; font-weight:bold; margin:0;"">1</p>
+    </div>
+    <div style=""flex:1; min-width:200px; background-color:#092162; padding:12px; border-radius:10px; color:white;"">
+      <h3 style=""color:white; font-size:18px; margin-bottom:6px;"">🔒 MDM Enrolled Devices</h3>
+      <p style=""font-size:24px; font-weight:bold; margin:0;"">1</p>
+    </div>
+  </div>
+
+  <div style=""margin-top:20px; background-color:#092162; padding:12px; border-radius:10px; color:white;"">
+    <h3 style=""color:white; font-size:18px; margin-bottom:8px;"">🖥️ Operating System Summary</h3>
+    <ul style=""list-style:none; padding-left:0; font-size:20px; margin:0;"">
+      <li>🪟 Windows: <strong>1</strong></li>
+      <li>🤖 Android: <strong>1</strong></li>
+      <li>🍎 iOS: <strong>0</strong></li>
+      <li>💻 macOS: <strong>0</strong></li>
+    </ul>
+  </div>
+
+  <div style=""margin-top:20px; background-color:#092162; padding:12px; border-radius:10px; color:white;"">
+    <h3 style=""color:white; font-size:18px; margin-bottom:8px;"">🚫 Additional Device Status</h3>
+    <ul style=""list-style:none; padding-left:0; font-size:20px; margin:0;"">
+      <li>❌ Blocked Devices: <strong>0</strong></li>
+      <li>🛑 Quarantined Devices: <strong>0</strong></li>
+    </ul>
+  </div>
+
+
+</div>","Device","2","1","1","0","1","0","0","2","2025-11-25T10:30:05Z",,,,"0","0","0",,,"0","0","0","0","true","true","true","true","true",,,
+"<div>
+<div style="" padding:20px; background-color:#333333; font-family:Arial, sans-serif; color:#fff;"">
+ </div>
+ <div style=""margin-left: 10px; margin-right:10px; margin-top:5px; margin-bottom:15px; background-color:#4D4D4D; padding:5px; border-radius:8px; color:white; width:auto"">
+    <h3 style=""color:white; font-size:24px; margin-bottom:8px;"">🔒 Device Compliance</h3>
+    <ul style=""list-style:none; padding-left:0; font-size:20px; margin:0;"">
+      <li>✔️ Compliant Devices: <strong>0</strong></li>
+      <li>⚠️ Non-Compliant Devices: <strong>2</strong></li>
+    </ul>
+  </div> <div style=""margin-left:10px; margin-right:10px; margin-top:5px;  margin-bottom:15px; background-color:#545454; padding:5px; border-radius:8px; color:white; width:auto"">
+    <h3 style=""color:white; font-size:24px; margin-bottom:8px;"">✅ Compliance Policy</h3>
+    <ul style=""list-style:none; padding-left:0; font-size:20px; margin:0;"">
+      <li>✔️ Intune Policy <strong>Android fully managed compliance policy</strong></li>
+    </ul>
+  </div> <div style=""margin-left:10px; margin-right:10px; margin-top:5px;  margin-bottom:15px; background-color:#545454; padding:5px; border-radius:8px; color:white; width:auto"">
+    <h3 style=""color:white; font-size:24px; margin-bottom:8px;"">✅ Compliance Policy</h3>
+    <ul style=""list-style:none; padding-left:0; font-size:20px; margin:0;"">
+      <li>✔️ Intune Policy <strong>FinanceTest Compliance Policy - Windows</strong></li>
+    </ul>
+  </div></div>","Compliance","2","1","1","0","1","0","0","2","2025-11-25T10:30:06Z",,,,"0","0","0",,,"0","0","0","0","true","true","true","true","true",,"<div style=""margin-left:10px; margin-right:10px; margin-top:5px; margin-bottom:15px; background-color:#53207D; padding:5px; border-radius:8px; color:white; width:auto; font-family:Arial, sans-serif;"">
+  <ul style=""list-style:none; padding-left:0; font-size:20px; margin:0;"">
+    <li>⚠️ Non-Compliant Devices: <strong>DESKTOP-F6K3U53</strong></li>
+  </ul>
+</div><div style=""margin-left:10px; margin-right:10px; margin-top:5px; margin-bottom:15px; background-color:#53207D; padding:5px; border-radius:8px; color:white; width:auto; font-family:Arial, sans-serif;"">
+  <ul style=""list-style:none; padding-left:0; font-size:20px; margin:0;"">
+    <li>⚠️ Non-Compliant Devices: <strong>Andy.Jones_AndroidForWork_11/24/2025_1:44 PM</strong></li>
+  </ul>
+</div>",
+"<div style=""padding:20px; background-color:#000000; font-family:Arial, sans-serif; color:#fff;"">
+  <div style=""display:flex; flex-wrap:wrap; gap:20px; margin-top:20px;"">
+    <div style=""flex:1; min-width:200px; background-color:#FFAB00; padding:15px; border-radius:10px; color:white;"">
+<p style=""color:black; font-size:22px; font-weight:bold;"">Intune Configuration Policy</p>
+      <p style=""color:white; font-size:22px; font-weight:bold;"">Baseline-WindowsHelloForBusiness</p>
+ <p style=""color:black; font-size:15px; font-weight:bold;"">Platform:windows10</p>
+    </div>    <div style=""flex:1; min-width:200px; background-color:#FFAB00; padding:15px; border-radius:10px; color:white;"">
+<p style=""color:black; font-size:22px; font-weight:bold;"">Intune Configuration Policy</p>
+      <p style=""color:white; font-size:22px; font-weight:bold;"">Settings Catalog Config policy</p>
+ <p style=""color:black; font-size:15px; font-weight:bold;"">Platform:androidEnterprise</p>
+    </div>    <div style=""flex:1; min-width:200px; background-color:#FFAB00; padding:15px; border-radius:10px; color:white;"">
+<p style=""color:black; font-size:22px; font-weight:bold;"">Intune Configuration Policy</p>
+      <p style=""color:white; font-size:22px; font-weight:bold;"">Windows - Device Security - Device Guard, Cred Guard - HVCI - v3.7</p>
+ <p style=""color:black; font-size:15px; font-weight:bold;"">Platform:windows10</p>
+    </div>    <div style=""flex:1; min-width:200px; background-color:#FFAB00; padding:15px; border-radius:10px; color:white;"">
+<p style=""color:black; font-size:22px; font-weight:bold;"">Intune Configuration Policy</p>
+      <p style=""color:white; font-size:22px; font-weight:bold;"">Windows Backup for Organisations2</p>
+ <p style=""color:black; font-size:15px; font-weight:bold;"">Platform:windows10</p>
+    </div>    <div style=""flex:1; min-width:200px; background-color:#FFAB00; padding:15px; border-radius:10px; color:white;"">
+<p style=""color:black; font-size:22px; font-weight:bold;"">Intune Configuration Policy</p>
+      <p style=""color:white; font-size:22px; font-weight:bold;"">Windows Device Security - Device Guard, Credential Guard</p>
+ <p style=""color:black; font-size:15px; font-weight:bold;"">Platform:windows10</p>
+    </div>
+  </div>
+
+</div>","Config","0","0","0",,"0","0","0","0","2025-11-25T10:30:07Z","4","0","1","0","0","0","[{""PolicyName"":""Baseline-WindowsHelloForBusiness""},{""PolicyName"":""Settings Catalog Config policy""},{""PolicyName"":""Windows - Device Security - Device Guard, Cred Guard - HVCI - v3.7""},{""PolicyName"":""Windows Backup for Organisations2""},{""PolicyName"":""Windows Device Security - Device Guard, Credential Guard""}]",,"0","0","0","0","true","true","true","true","true",,,
+"<div style='font-family:Segoe UI, Arial, sans-serif; background-color:#4a0d0d; color:#FFFFFF; margin:0;'>
+
+  <!-- Body -->
+  <div style='padding:15px;'>
+    <!-- Card Container -->
+    <div style='display:flex; flex-wrap:wrap; justify-content:space-between;'>      <div style='flex:1 1 300px; background-color:#661414; border-radius:10px; padding:10px; margin:8px; box-shadow:0 2px 6px rgba(0,0,0,0.2);'>
+        <h3 style='margin-top:0; font-size:18px;'>📦 MDATP_XPLAT</h3>
+  <p style='font-size:16px;'><strong>Consumed:</strong>0</p>
+ <p style='font-size:14px;'><strong>Prepaid:</strong>5</p>
+<p style='font-size:16px; color:#F5F5F5;'>
+    🚫 Suspended:  0| 
+    ⚠️ Warnings: 0 | 
+    🔒 Lockouts: 0
+  </p>
+</div>      <div style='flex:1 1 300px; background-color:#661414; border-radius:10px; padding:10px; margin:8px; box-shadow:0 2px 6px rgba(0,0,0,0.2);'>
+        <h3 style='margin-top:0; font-size:18px;'>📦 Microsoft_365_ Business_ Premium_(no Teams)</h3>
+  <p style='font-size:16px;'><strong>Consumed:</strong>5</p>
+ <p style='font-size:14px;'><strong>Prepaid:</strong>5</p>
+<p style='font-size:16px; color:#F5F5F5;'>
+    🚫 Suspended:  0| 
+    ⚠️ Warnings: 0 | 
+    🔒 Lockouts: 0
+  </p>
+</div>      <div style='flex:1 1 300px; background-color:#661414; border-radius:10px; padding:10px; margin:8px; box-shadow:0 2px 6px rgba(0,0,0,0.2);'>
+        <h3 style='margin-top:0; font-size:18px;'>📦 FLOW_FREE</h3>
+  <p style='font-size:16px;'><strong>Consumed:</strong>4</p>
+ <p style='font-size:14px;'><strong>Prepaid:</strong>10000</p>
+<p style='font-size:16px; color:#F5F5F5;'>
+    🚫 Suspended:  0| 
+    ⚠️ Warnings: 0 | 
+    🔒 Lockouts: 0
+  </p>
+</div>      <div style='flex:1 1 300px; background-color:#661414; border-radius:10px; padding:10px; margin:8px; box-shadow:0 2px 6px rgba(0,0,0,0.2);'>
+        <h3 style='margin-top:0; font-size:18px;'>📦 AAD_PREMIUM_P2</h3>
+  <p style='font-size:16px;'><strong>Consumed:</strong>0</p>
+ <p style='font-size:14px;'><strong>Prepaid:</strong>5</p>
+<p style='font-size:16px; color:#F5F5F5;'>
+    🚫 Suspended:  0| 
+    ⚠️ Warnings: 0 | 
+    🔒 Lockouts: 0
+  </p>
+</div>      <div style='flex:1 1 300px; background-color:#661414; border-radius:10px; padding:10px; margin:8px; box-shadow:0 2px 6px rgba(0,0,0,0.2);'>
+        <h3 style='margin-top:0; font-size:18px;'>📦 DYN365_BUSCENTRAL_PREMIUM</h3>
+  <p style='font-size:16px;'><strong>Consumed:</strong>1</p>
+ <p style='font-size:14px;'><strong>Prepaid:</strong>4</p>
+<p style='font-size:16px; color:#F5F5F5;'>
+    🚫 Suspended:  0| 
+    ⚠️ Warnings: 0 | 
+    🔒 Lockouts: 0
+  </p>
+</div>      <div style='flex:1 1 300px; background-color:#661414; border-radius:10px; padding:10px; margin:8px; box-shadow:0 2px 6px rgba(0,0,0,0.2);'>
+        <h3 style='margin-top:0; font-size:18px;'>📦 Microsoft_Teams_Enterprise_New</h3>
+  <p style='font-size:16px;'><strong>Consumed:</strong>4</p>
+ <p style='font-size:14px;'><strong>Prepaid:</strong>5</p>
+<p style='font-size:16px; color:#F5F5F5;'>
+    🚫 Suspended:  0| 
+    ⚠️ Warnings: 0 | 
+    🔒 Lockouts: 0
+  </p>
+</div>      <div style='flex:1 1 300px; background-color:#661414; border-radius:10px; padding:10px; margin:8px; box-shadow:0 2px 6px rgba(0,0,0,0.2);'>
+        <h3 style='margin-top:0; font-size:18px;'>📦 PBI_PREMIUM_PER_USER</h3>
+  <p style='font-size:16px;'><strong>Consumed:</strong>0</p>
+ <p style='font-size:14px;'><strong>Prepaid:</strong>4</p>
+<p style='font-size:16px; color:#F5F5F5;'>
+    🚫 Suspended:  0| 
+    ⚠️ Warnings: 0 | 
+    🔒 Lockouts: 0
+  </p>
+</div>      <div style='flex:1 1 300px; background-color:#661414; border-radius:10px; padding:10px; margin:8px; box-shadow:0 2px 6px rgba(0,0,0,0.2);'>
+        <h3 style='margin-top:0; font-size:18px;'>📦 Power_Pages_vTrial_for_Makers</h3>
+  <p style='font-size:16px;'><strong>Consumed:</strong>1</p>
+ <p style='font-size:14px;'><strong>Prepaid:</strong>10000</p>
+<p style='font-size:16px; color:#F5F5F5;'>
+    🚫 Suspended:  0| 
+    ⚠️ Warnings: 0 | 
+    🔒 Lockouts: 0
+  </p>
+</div>      <div style='flex:1 1 300px; background-color:#661414; border-radius:10px; padding:10px; margin:8px; box-shadow:0 2px 6px rgba(0,0,0,0.2);'>
+        <h3 style='margin-top:0; font-size:18px;'>📦 POWERAPPS_PER_USER</h3>
+  <p style='font-size:16px;'><strong>Consumed:</strong>3</p>
+ <p style='font-size:14px;'><strong>Prepaid:</strong>26</p>
+<p style='font-size:16px; color:#F5F5F5;'>
+    🚫 Suspended:  0| 
+    ⚠️ Warnings: 0 | 
+    🔒 Lockouts: 0
+  </p>
+</div>      <div style='flex:1 1 300px; background-color:#661414; border-radius:10px; padding:10px; margin:8px; box-shadow:0 2px 6px rgba(0,0,0,0.2);'>
+        <h3 style='margin-top:0; font-size:18px;'>📦 O365_BUSINESS_ESSENTIALS</h3>
+  <p style='font-size:16px;'><strong>Consumed:</strong>0</p>
+ <p style='font-size:14px;'><strong>Prepaid:</strong>0</p>
+<p style='font-size:16px; color:#F5F5F5;'>
+    🚫 Suspended:  25| 
+    ⚠️ Warnings: 0 | 
+    🔒 Lockouts: 0
+  </p>
+</div>      <div style='flex:1 1 300px; background-color:#661414; border-radius:10px; padding:10px; margin:8px; box-shadow:0 2px 6px rgba(0,0,0,0.2);'>
+        <h3 style='margin-top:0; font-size:18px;'>📦 POWERAUTOMATE_ATTENDED_RPA</h3>
+  <p style='font-size:16px;'><strong>Consumed:</strong>2</p>
+ <p style='font-size:14px;'><strong>Prepaid:</strong>1</p>
+<p style='font-size:16px; color:#F5F5F5;'>
+    🚫 Suspended:  25| 
+    ⚠️ Warnings: 0 | 
+    🔒 Lockouts: 0
+  </p>
+</div>      <div style='flex:1 1 300px; background-color:#661414; border-radius:10px; padding:10px; margin:8px; box-shadow:0 2px 6px rgba(0,0,0,0.2);'>
+        <h3 style='margin-top:0; font-size:18px;'>📦 POWERAPPS_DEV</h3>
+  <p style='font-size:16px;'><strong>Consumed:</strong>2</p>
+ <p style='font-size:14px;'><strong>Prepaid:</strong>10000</p>
+<p style='font-size:16px; color:#F5F5F5;'>
+    🚫 Suspended:  0| 
+    ⚠️ Warnings: 0 | 
+    🔒 Lockouts: 0
+  </p>
+</div>    </div>
+  </div>
+
+  <!-- Footer -->
+
+</div>","License","0","0","0",,"0","0","0","0","2025-11-25T10:30:10Z",,,,"0","0","12",,,"0","0","0","0","true","true","true","true","true",,,
+"<div style='font-family:Segoe UI,Arial,sans-serif;'>
+
+  <!-- Body -->
+  <div style='padding:15px; background-color:#0b3d2e; font-size:25px; color:white;'>
+
+    <!-- Managed Applications Section -->
+    <div style='background-color:#145c43; padding:15px; margin:15px 0; border-radius:10px;'>
+      <h2 style='color:white; margin-top:0;'>🔍 Managed Applications</h2>
+      <p style='color:white;'>
+        These are managed Intune applications assigned to Intune users or groups.  Assigned Apps do not represent those actually installed on devices.
+      </p>      <div style='background-color:#1f7a57; color:white; padding:8px 20px; border-radius:20px; font-weight:bold; margin:5px;'>
+  Adobe Acrobat Reader: Edit PDF 🍏
+</div>      <div style='background-color:#1f7a57; color:white; padding:8px 20px; border-radius:20px; font-weight:bold; margin:5px;'>
+  Intune Company Portal 🤖
+</div>      <div style='background-color:#1f7a57; color:white; padding:8px 20px; border-radius:20px; font-weight:bold; margin:5px;'>
+  Managed Home Screen 🤖
+</div>      <div style='background-color:#1f7a57; color:white; padding:8px 20px; border-radius:20px; font-weight:bold; margin:5px;'>
+  Microsoft Authenticator 🤖
+</div>      <div style='background-color:#1f7a57; color:white; padding:8px 20px; border-radius:20px; font-weight:bold; margin:5px;'>
+  Microsoft Intune 🤖
+</div>      <div style='background-color:#1f7a57; color:white; padding:8px 20px; border-radius:20px; font-weight:bold; margin:5px;'>
+  Power Apps 🤖
+</div>      <div style='background-color:#1f7a57; color:white; padding:8px 20px; border-radius:20px; font-weight:bold; margin:5px;'>
+  Power BI Desktop 🪟
+</div>      <div style='background-color:#1f7a57; color:white; padding:8px 20px; border-radius:20px; font-weight:bold; margin:5px;'>
+  WinZip 28 🪟
+</div>    <!-- Footer Message -->
+  </div>
+</div>""","APPS","0","0","0",,"0","0","0","0","2025-11-25T10:30:18Z",,,,"0","8","0",,,"2","5","1","0","true","true","true","true","true",,,
+"<div>
+<div style="" padding:20px; background-color:#333333; font-family:Arial, sans-serif; color:#fff;"">
+ </div>
+ <div style=""margin-left: 10px; margin-right:10px; margin-top:5px; margin-bottom:15px; background-color:#4D4D4D; padding:5px; border-radius:8px; color:white; width:auto"">
+    <h3 style=""color:white; font-size:24px; margin-bottom:8px;"">🔒 Device Compliance</h3>
+    <ul style=""list-style:none; padding-left:0; font-size:20px; margin:0;"">
+      <li>✔️ Compliant Devices: <strong>0</strong></li>
+      <li>⚠️ Non-Compliant Devices: <strong>2</strong></li>
+    </ul>
+  </div> <div style=""margin-left:10px; margin-right:10px; margin-top:5px;  margin-bottom:15px; background-color:#545454; padding:5px; border-radius:8px; color:white; width:auto"">
+    <h3 style=""color:white; font-size:24px; margin-bottom:8px;"">✅ Compliance Policy</h3>
+    <ul style=""list-style:none; padding-left:0; font-size:20px; margin:0;"">
+      <li>✔️ Intune Policy <strong>Android fully managed compliance policy</strong></li>
+    </ul>
+  </div> <div style=""margin-left:10px; margin-right:10px; margin-top:5px;  margin-bottom:15px; background-color:#545454; padding:5px; border-radius:8px; color:white; width:auto"">
+    <h3 style=""color:white; font-size:24px; margin-bottom:8px;"">✅ Compliance Policy</h3>
+    <ul style=""list-style:none; padding-left:0; font-size:20px; margin:0;"">
+      <li>✔️ Intune Policy <strong>FinanceTest Compliance Policy - Windows</strong></li>
+    </ul>
+  </div></div>","Compliance","2","1","1","0","1","0","0","2","2025-11-25T19:36:26Z",,,,"0","0","0",,,"0","0","0","0","true","true","true","true","true",,"<div style=""margin-left:10px; margin-right:10px; margin-top:5px; margin-bottom:15px; background-color:#53207D; padding:5px; border-radius:8px; color:white; width:auto; font-family:Arial, sans-serif;"">
+  <ul style=""list-style:none; padding-left:0; font-size:20px; margin:0;"">
+    <li>⚠️ Non-Compliant Devices: <strong>Andy.Jones_AndroidForWork_11/24/2025_1:44 PM</strong></li>
+  </ul>
+</div><div style=""margin-left:10px; margin-right:10px; margin-top:5px; margin-bottom:15px; background-color:#53207D; padding:5px; border-radius:8px; color:white; width:auto; font-family:Arial, sans-serif;"">
+  <ul style=""list-style:none; padding-left:0; font-size:20px; margin:0;"">
+    <li>⚠️ Non-Compliant Devices: <strong>DESKTOP-F6K3U53</strong></li>
+  </ul>
+</div>",
+"<div style=""padding:20px; background-color:#000000; font-family:Arial, sans-serif; color:#fff;"">
+  <div style=""display:flex; flex-wrap:wrap; gap:20px; margin-top:20px;"">
+    <div style=""flex:1; min-width:200px; background-color:#FFAB00; padding:15px; border-radius:10px; color:white;"">
+<p style=""color:black; font-size:22px; font-weight:bold;"">Intune Configuration Policy</p>
+      <p style=""color:white; font-size:22px; font-weight:bold;"">Baseline-WindowsHelloForBusiness</p>
+ <p style=""color:black; font-size:15px; font-weight:bold;"">Platform:windows10</p>
+    </div>    <div style=""flex:1; min-width:200px; background-color:#FFAB00; padding:15px; border-radius:10px; color:white;"">
+<p style=""color:black; font-size:22px; font-weight:bold;"">Intune Configuration Policy</p>
+      <p style=""color:white; font-size:22px; font-weight:bold;"">Settings Catalog Config policy</p>
+ <p style=""color:black; font-size:15px; font-weight:bold;"">Platform:androidEnterprise</p>
+    </div>    <div style=""flex:1; min-width:200px; background-color:#FFAB00; padding:15px; border-radius:10px; color:white;"">
+<p style=""color:black; font-size:22px; font-weight:bold;"">Intune Configuration Policy</p>
+      <p style=""color:white; font-size:22px; font-weight:bold;"">Windows - Device Security - Device Guard, Cred Guard - HVCI - v3.7</p>
+ <p style=""color:black; font-size:15px; font-weight:bold;"">Platform:windows10</p>
+    </div>    <div style=""flex:1; min-width:200px; background-color:#FFAB00; padding:15px; border-radius:10px; color:white;"">
+<p style=""color:black; font-size:22px; font-weight:bold;"">Intune Configuration Policy</p>
+      <p style=""color:white; font-size:22px; font-weight:bold;"">Windows Backup for Organisations2</p>
+ <p style=""color:black; font-size:15px; font-weight:bold;"">Platform:windows10</p>
+    </div>    <div style=""flex:1; min-width:200px; background-color:#FFAB00; padding:15px; border-radius:10px; color:white;"">
+<p style=""color:black; font-size:22px; font-weight:bold;"">Intune Configuration Policy</p>
+      <p style=""color:white; font-size:22px; font-weight:bold;"">Windows Device Security - Device Guard, Credential Guard</p>
+ <p style=""color:black; font-size:15px; font-weight:bold;"">Platform:windows10</p>
+    </div>
+  </div>
+
+</div>","Config","0","0","0",,"0","0","0","0","2025-11-25T20:30:07Z","4","0","1","0","0","0","[{""PolicyName"":""Baseline-WindowsHelloForBusiness""},{""PolicyName"":""Settings Catalog Config policy""},{""PolicyName"":""Windows - Device Security - Device Guard, Cred Guard - HVCI - v3.7""},{""PolicyName"":""Windows Backup for Organisations2""},{""PolicyName"":""Windows Device Security - Device Guard, Credential Guard""}]",,"0","0","0","0","true","true","true","true","true",,,
+"<div style='font-family:Segoe UI, Arial, sans-serif; background-color:#4a0d0d; color:#FFFFFF; margin:0;'>
+
+  <!-- Body -->
+  <div style='padding:15px;'>
+    <!-- Card Container -->
+    <div style='display:flex; flex-wrap:wrap; justify-content:space-between;'>      <div style='flex:1 1 300px; background-color:#661414; border-radius:10px; padding:10px; margin:8px; box-shadow:0 2px 6px rgba(0,0,0,0.2);'>
+        <h3 style='margin-top:0; font-size:18px;'>📦 MDATP_XPLAT</h3>
+  <p style='font-size:16px;'><strong>Consumed:</strong>0</p>
+ <p style='font-size:14px;'><strong>Prepaid:</strong>5</p>
+<p style='font-size:16px; color:#F5F5F5;'>
+    🚫 Suspended:  0| 
+    ⚠️ Warnings: 0 | 
+    🔒 Lockouts: 0
+  </p>
+</div>      <div style='flex:1 1 300px; background-color:#661414; border-radius:10px; padding:10px; margin:8px; box-shadow:0 2px 6px rgba(0,0,0,0.2);'>
+        <h3 style='margin-top:0; font-size:18px;'>📦 Microsoft_365_ Business_ Premium_(no Teams)</h3>
+  <p style='font-size:16px;'><strong>Consumed:</strong>5</p>
+ <p style='font-size:14px;'><strong>Prepaid:</strong>5</p>
+<p style='font-size:16px; color:#F5F5F5;'>
+    🚫 Suspended:  0| 
+    ⚠️ Warnings: 0 | 
+    🔒 Lockouts: 0
+  </p>
+</div>      <div style='flex:1 1 300px; background-color:#661414; border-radius:10px; padding:10px; margin:8px; box-shadow:0 2px 6px rgba(0,0,0,0.2);'>
+        <h3 style='margin-top:0; font-size:18px;'>📦 FLOW_FREE</h3>
+  <p style='font-size:16px;'><strong>Consumed:</strong>4</p>
+ <p style='font-size:14px;'><strong>Prepaid:</strong>10000</p>
+<p style='font-size:16px; color:#F5F5F5;'>
+    🚫 Suspended:  0| 
+    ⚠️ Warnings: 0 | 
+    🔒 Lockouts: 0
+  </p>
+</div>      <div style='flex:1 1 300px; background-color:#661414; border-radius:10px; padding:10px; margin:8px; box-shadow:0 2px 6px rgba(0,0,0,0.2);'>
+        <h3 style='margin-top:0; font-size:18px;'>📦 AAD_PREMIUM_P2</h3>
+  <p style='font-size:16px;'><strong>Consumed:</strong>0</p>
+ <p style='font-size:14px;'><strong>Prepaid:</strong>5</p>
+<p style='font-size:16px; color:#F5F5F5;'>
+    🚫 Suspended:  0| 
+    ⚠️ Warnings: 0 | 
+    🔒 Lockouts: 0
+  </p>
+</div>      <div style='flex:1 1 300px; background-color:#661414; border-radius:10px; padding:10px; margin:8px; box-shadow:0 2px 6px rgba(0,0,0,0.2);'>
+        <h3 style='margin-top:0; font-size:18px;'>📦 DYN365_BUSCENTRAL_PREMIUM</h3>
+  <p style='font-size:16px;'><strong>Consumed:</strong>1</p>
+ <p style='font-size:14px;'><strong>Prepaid:</strong>4</p>
+<p style='font-size:16px; color:#F5F5F5;'>
+    🚫 Suspended:  0| 
+    ⚠️ Warnings: 0 | 
+    🔒 Lockouts: 0
+  </p>
+</div>      <div style='flex:1 1 300px; background-color:#661414; border-radius:10px; padding:10px; margin:8px; box-shadow:0 2px 6px rgba(0,0,0,0.2);'>
+        <h3 style='margin-top:0; font-size:18px;'>📦 Microsoft_Teams_Enterprise_New</h3>
+  <p style='font-size:16px;'><strong>Consumed:</strong>4</p>
+ <p style='font-size:14px;'><strong>Prepaid:</strong>5</p>
+<p style='font-size:16px; color:#F5F5F5;'>
+    🚫 Suspended:  0| 
+    ⚠️ Warnings: 0 | 
+    🔒 Lockouts: 0
+  </p>
+</div>      <div style='flex:1 1 300px; background-color:#661414; border-radius:10px; padding:10px; margin:8px; box-shadow:0 2px 6px rgba(0,0,0,0.2);'>
+        <h3 style='margin-top:0; font-size:18px;'>📦 PBI_PREMIUM_PER_USER</h3>
+  <p style='font-size:16px;'><strong>Consumed:</strong>0</p>
+ <p style='font-size:14px;'><strong>Prepaid:</strong>4</p>
+<p style='font-size:16px; color:#F5F5F5;'>
+    🚫 Suspended:  0| 
+    ⚠️ Warnings: 0 | 
+    🔒 Lockouts: 0
+  </p>
+</div>      <div style='flex:1 1 300px; background-color:#661414; border-radius:10px; padding:10px; margin:8px; box-shadow:0 2px 6px rgba(0,0,0,0.2);'>
+        <h3 style='margin-top:0; font-size:18px;'>📦 Power_Pages_vTrial_for_Makers</h3>
+  <p style='font-size:16px;'><strong>Consumed:</strong>1</p>
+ <p style='font-size:14px;'><strong>Prepaid:</strong>10000</p>
+<p style='font-size:16px; color:#F5F5F5;'>
+    🚫 Suspended:  0| 
+    ⚠️ Warnings: 0 | 
+    🔒 Lockouts: 0
+  </p>
+</div>      <div style='flex:1 1 300px; background-color:#661414; border-radius:10px; padding:10px; margin:8px; box-shadow:0 2px 6px rgba(0,0,0,0.2);'>
+        <h3 style='margin-top:0; font-size:18px;'>📦 POWERAPPS_PER_USER</h3>
+  <p style='font-size:16px;'><strong>Consumed:</strong>3</p>
+ <p style='font-size:14px;'><strong>Prepaid:</strong>26</p>
+<p style='font-size:16px; color:#F5F5F5;'>
+    🚫 Suspended:  0| 
+    ⚠️ Warnings: 0 | 
+    🔒 Lockouts: 0
+  </p>
+</div>      <div style='flex:1 1 300px; background-color:#661414; border-radius:10px; padding:10px; margin:8px; box-shadow:0 2px 6px rgba(0,0,0,0.2);'>
+        <h3 style='margin-top:0; font-size:18px;'>📦 O365_BUSINESS_ESSENTIALS</h3>
+  <p style='font-size:16px;'><strong>Consumed:</strong>0</p>
+ <p style='font-size:14px;'><strong>Prepaid:</strong>0</p>
+<p style='font-size:16px; color:#F5F5F5;'>
+    🚫 Suspended:  25| 
+    ⚠️ Warnings: 0 | 
+    🔒 Lockouts: 0
+  </p>
+</div>      <div style='flex:1 1 300px; background-color:#661414; border-radius:10px; padding:10px; margin:8px; box-shadow:0 2px 6px rgba(0,0,0,0.2);'>
+        <h3 style='margin-top:0; font-size:18px;'>📦 POWERAUTOMATE_ATTENDED_RPA</h3>
+  <p style='font-size:16px;'><strong>Consumed:</strong>2</p>
+ <p style='font-size:14px;'><strong>Prepaid:</strong>1</p>
+<p style='font-size:16px; color:#F5F5F5;'>
+    🚫 Suspended:  25| 
+    ⚠️ Warnings: 0 | 
+    🔒 Lockouts: 0
+  </p>
+</div>      <div style='flex:1 1 300px; background-color:#661414; border-radius:10px; padding:10px; margin:8px; box-shadow:0 2px 6px rgba(0,0,0,0.2);'>
+        <h3 style='margin-top:0; font-size:18px;'>📦 POWERAPPS_DEV</h3>
+  <p style='font-size:16px;'><strong>Consumed:</strong>2</p>
+ <p style='font-size:14px;'><strong>Prepaid:</strong>10000</p>
+<p style='font-size:16px; color:#F5F5F5;'>
+    🚫 Suspended:  0| 
+    ⚠️ Warnings: 0 | 
+    🔒 Lockouts: 0
+  </p>
+</div>    </div>
+  </div>
+
+  <!-- Footer -->
+
+</div>","License","0","0","0",,"0","0","0","0","2025-11-25T20:30:10Z",,,,"0","0","12",,,"0","0","0","0","true","true","true","true","true",,,
+"<div style='font-family:Segoe UI,Arial,sans-serif;'>
+
+  <!-- Body -->
+  <div style='padding:15px; background-color:#0b3d2e; font-size:25px; color:white;'>
+
+    <!-- Managed Applications Section -->
+    <div style='background-color:#145c43; padding:15px; margin:15px 0; border-radius:10px;'>
+      <h2 style='color:white; margin-top:0;'>🔍 Managed Applications</h2>
+      <p style='color:white;'>
+        These are managed Intune applications assigned to Intune users or groups.  Assigned Apps do not represent those actually installed on devices.
+      </p>      <div style='background-color:#1f7a57; color:white; padding:8px 20px; border-radius:20px; font-weight:bold; margin:5px;'>
+  Adobe Acrobat Reader: Edit PDF 🍏
+</div>      <div style='background-color:#1f7a57; color:white; padding:8px 20px; border-radius:20px; font-weight:bold; margin:5px;'>
+  Intune Company Portal 🤖
+</div>      <div style='background-color:#1f7a57; color:white; padding:8px 20px; border-radius:20px; font-weight:bold; margin:5px;'>
+  Managed Home Screen 🤖
+</div>      <div style='background-color:#1f7a57; color:white; padding:8px 20px; border-radius:20px; font-weight:bold; margin:5px;'>
+  Microsoft Authenticator 🤖
+</div>      <div style='background-color:#1f7a57; color:white; padding:8px 20px; border-radius:20px; font-weight:bold; margin:5px;'>
+  Microsoft Intune 🤖
+</div>      <div style='background-color:#1f7a57; color:white; padding:8px 20px; border-radius:20px; font-weight:bold; margin:5px;'>
+  Power Apps 🤖
+</div>      <div style='background-color:#1f7a57; color:white; padding:8px 20px; border-radius:20px; font-weight:bold; margin:5px;'>
+  Power BI Desktop 🪟
+</div>      <div style='background-color:#1f7a57; color:white; padding:8px 20px; border-radius:20px; font-weight:bold; margin:5px;'>
+  WinZip 28 🪟
+</div>    <!-- Footer Message -->
+  </div>
+</div>""","APPS","0","0","0",,"0","0","0","0","2025-11-25T20:30:14Z",,,,"0","8","0",,,"2","5","1","0","true","true","true","true","true",,,
