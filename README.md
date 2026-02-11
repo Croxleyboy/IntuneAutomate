@@ -1,5 +1,6 @@
 # IntuneAutomate - Coming Soon
 Simplify Key Microsoft Intune tasks using existing licensed resources and skills.
+Check out IntuneAutomate Mobile - Already available for download and use (https://github.com/Croxleyboy/IntuneAutomateMobile)
 
 ![IntuneAutomate Dashboard](IntuneAutomateDashboard.png)
 
