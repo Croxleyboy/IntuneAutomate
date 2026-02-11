@@ -1,5 +1,5 @@
 # IntuneAutomate
-Simplift Key Microsoft Intune tasks using existing licensed resources.
+Simplify Key Microsoft Intune tasks using existing licensed resources and skills.
 
 ![IntuneAutomate Dashboard](IntuneAutomateDashboard.png)
 
@@ -25,43 +25,34 @@ IntuneAutomate bridges the gap between SME managers and IT Admins. Simplify some
 
 ## 🎯 **Purpose**
 
-IntuneAutomate makes gaining quick insights into your Microsoft Intune tenant simple and secure. While Intune is powerful, sometimes you need fast, actionable data without extra complexity.
-This solution is Microsoft-focused and runs entirely within your own tenant, leveraging your existing security posture—no external subscriptions required.
+IntuneAutomate allows SME managers and IT Admins take control of useful tasks quickly like renaming a Windows device to adhere to company naming standards, assigning a user to a specific Intune managed application and deploying Industry curated Intune configuration in 3 clicks. While Intune is powerful, sometimes you need fast, actionable ways to quickly make updates without extra complexity.
+This solution is Microsoft-focused and runs entirely within your own tenant, leveraging your existing security posture—no and no external subscriptions required.
 A ready-to-use automation toolkit built using:
  
-- **x1 SharePoint List**  
-- **x6 Microsoft Power Automate Flows**  
-- **x1 Microsoft Power Application**  
+- **SharePoint Lists**  
+- **Microsoft Power Automate Flows**  
+- **A Microsoft Power Application**  
 - **Microsoft Intune/Entra data**    
 
-Our goal is to **simplify access to Intune data** and gain quick insights as a Manager or IT Admin - Improve quick access to compliance, Licensing, Applications registered, policies deployed and device status — all while leveraging tools you already have in Microsoft 365.
+Visit the website for additional information and use this GitHub resource to download and get Started with the solution
 
 ---
 
 ## ✅ **GitHub**
 
-This repository currently includes **Three directories** to help you deploy in your environment: Setup guide, Power platform solution, SharePoint List (data source). Start with the guide to become familiar with the steps required to deploy.
+Before the release of IntuneAutomate v0.1 This repository does not contain the source solution BUT once available will include  **Four directories** to help you deploy in your environment: A Setup guide, Power platform solution, SharePoint List (data source) and Power Automate flows to sychronise data. Register via the website to be notified once available.
 
-### 1. Compliance
-- Check-In with your compliance insights to see the status of your devices. Allows you make quick decisions.
-
-### 2. Configuration
-- Your Intune policies work across your device estate. This App gives you a quick check on those policies deployed and when this changes (to be added). 
-
-### 3. Licenses
-- Productivity is delivered through functionality and thats where Licensing comes in. Keep track of your license availability and assignments.
-
-### 4. Devices
-- See how many devices and there types you have and their current status. 
 ---
 
 ## 🤝 Future Functionality
 
+As a FREE Community tool new features, bug fixes and updates will be made available over time. BUT if you would like to be a part of this tool please contribute to the solution.
+
 **Multiple new features Incoming**.
-- Deeper insights to policies deployed
-- Security and compliance notifications and Alerts
-- The numbers around Applications in your estate
-- Enhanced policy knowledge captured changes 
+- New Personapacks for Retail, Healthcare and more Industries.
+- Additiopnal reports 
+- Enhancements to the Asset manager
+- UI Tweaks and improvements 
 
 ## 🤝 Community Contribution
 
