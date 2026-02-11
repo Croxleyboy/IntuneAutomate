@@ -1,15 +1,15 @@
-# IntuneAutomateMobile
-Get your Microsoft Intune Insights quickly and on the go.
+# IntuneAutomate
+Simplift Key Microsoft Intune tasks using existing licensed resources.
 
 ![IntuneAutomate Dashboard](IntuneAutomateDashboard.png)
 
-# 🚀 Your Microsoft focused Intune Check-In App
+# 🚀 Your Microsoft focused Intune management tool - All FREE
 
 ![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)
 ![GitHub Stars](https://img.shields.io/github/stars/your-org/hr-automation?style=social)
 
 Welcome to the **The Community driven tool for Microsoft first environments**!  
-This repository contains a Microsoft solution for quick insights into your Intune tenant. Quickly check-in for your compliance, configuration, licensing, applications and devices from the mobile.
+IntuneAutomate bridges the gap between SME managers and IT Admins. Simplify some key operations for Microsoft Intune using intuitive tools for Application assignment, Reporting, Asset Management and Industry-guided PersonaPacks - Intune policy bundles deployed in 3 clicks..
 
 ---
 
