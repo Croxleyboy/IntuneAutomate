@@ -1,4 +1,4 @@
-# IntuneAutomate
+# IntuneAutomate - Coming Soon
 Simplify Key Microsoft Intune tasks using existing licensed resources and skills.
 
 ![IntuneAutomate Dashboard](IntuneAutomateDashboard.png)
