@@ -1,8 +1,10 @@
-Contributing to IntuneAutomate
+**Contributing to IntuneAutomate
+
 Thank you for your interest in contributing! 🎉
 IntuneAutomate is a community‑driven, tenant‑native automation toolkit built on the Microsoft Power Platform. Contributions of all kinds are welcome — code, documentation, ideas, testing, and feedback.
 
-How to Contribute
+
+**How to Contribute
 🐛 Reporting Issues
 Use the Issues tab to report bugs or request features.
 
