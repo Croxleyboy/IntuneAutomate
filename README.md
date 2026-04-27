@@ -1,3 +1,8 @@
+## 📊 Repository Traffic
+
+<!-- TRAFFIC-STATS-START -->
+<!-- TRAFFIC-STATS-END -->
+
 # IntuneAutomate - Now Live
 Simplify Key Microsoft Intune tasks using existing company skills and license investments. 
 
