@@ -1,6 +1,12 @@
 ## 📊 Repository Traffic
 
 <!-- TRAFFIC-STATS-START -->
+| Metric | Total | Unique |
+|--------|------:|-------:|
+| 👁️ Views  | 200  | 10  |
+| 📦 Clones | 349  | 162  |
+
+*Cumulative since tracking began · updated daily*
 <!-- TRAFFIC-STATS-END -->
 
 # IntuneAutomate - Now Live
