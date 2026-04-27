@@ -1,14 +1,3 @@
-## 📊 Repository Traffic
-
-<!-- TRAFFIC-STATS-START -->
-| Metric | Total | Unique |
-|--------|------:|-------:|
-| 👁️ Views  | 200  | 10  |
-| 📦 Clones | 349  | 162  |
-
-*Cumulative since tracking began · updated daily*
-<!-- TRAFFIC-STATS-END -->
-
 # IntuneAutomate - Now Live
 Simplify Key Microsoft Intune tasks using existing company skills and license investments. 
 
@@ -90,5 +79,16 @@ Please see our [CONTRIBUTING.md](./CONTRIBUTING.md) for guidelines on how to get
 2. Import the provided **Power solution** into your environment (Lists, Flows, App itself, PowerShell scripts, Azure/Entra Configurations, UTCM Setup).
 3. Configure connections for Microsoft 365 services using the Configuration Guides.
 4. Customise to fit your organization’s needs in your own tenant.
+
+## 📊 Repository Traffic
+
+<!-- TRAFFIC-STATS-START -->
+| Metric | Total | Unique |
+|--------|------:|-------:|
+| 👁️ Views  | 200  | 10  |
+| 📦 Clones | 349  | 162  |
+
+*Cumulative since tracking began · updated daily*
+<!-- TRAFFIC-STATS-END -->
 
 ---
