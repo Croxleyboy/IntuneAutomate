@@ -1,1 +1,105 @@
+name: Update Traffic Stats
 
+on:
+  schedule:
+    - cron: '0 6 * * *'   # daily at 6am UTC
+  workflow_dispatch:        # allow manual trigger
+
+jobs:
+  update-traffic:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.TRAFFIC_TOKEN }}
+
+      - name: Fetch traffic from GitHub API
+        env:
+          TOKEN: ${{ secrets.TRAFFIC_TOKEN }}
+        run: |
+          curl -s -H "Authorization: token $TOKEN" \
+            "https://api.github.com/repos/Croxleyboy/IntuneAutomate/traffic/views" \
+            -o /tmp/views.json
+          curl -s -H "Authorization: token $TOKEN" \
+            "https://api.github.com/repos/Croxleyboy/IntuneAutomate/traffic/clones" \
+            -o /tmp/clones.json
+
+      - name: Merge and update stats
+        run: |
+          python3 - << 'PYEOF'
+          import json, os, re
+
+          # Load API response
+          with open('/tmp/views.json') as f:
+              api_views = json.load(f)
+          with open('/tmp/clones.json') as f:
+              api_clones = json.load(f)
+
+          # Load stored history
+          data_file = '.github/traffic-data.json'
+          with open(data_file) as f:
+              stored = json.load(f)
+
+          # Upsert views by date
+          for entry in api_views.get('views', []):
+              date = entry['timestamp'][:10]
+              stored['views'][date] = {
+                  'count': entry['count'],
+                  'uniques': entry['uniques']
+              }
+
+          # Upsert clones by date
+          for entry in api_clones.get('clones', []):
+              date = entry['timestamp'][:10]
+              stored['clones'][date] = {
+                  'count': entry['count'],
+                  'uniques': entry['uniques']
+              }
+
+          # Save updated history
+          with open(data_file, 'w') as f:
+              json.dump(stored, f, indent=2, sort_keys=True)
+
+          # Calculate cumulative totals
+          tv  = sum(v['count']   for v in stored['views'].values())
+          uv  = sum(v['uniques'] for v in stored['views'].values())
+          tc  = sum(v['count']   for v in stored['clones'].values())
+          uc  = sum(v['uniques'] for v in stored['clones'].values())
+
+          # Update README between markers
+          block = (
+              "<!-- TRAFFIC-STATS-START -->\n"
+              "| Metric | Total | Unique |\n"
+              "|--------|------:|-------:|\n"
+              f"| 👁️ Views  | {tv}  | {uv}  |\n"
+              f"| 📦 Clones | {tc}  | {uc}  |\n\n"
+              "*Cumulative since tracking began · updated daily*\n"
+              "<!-- TRAFFIC-STATS-END -->"
+          )
+
+          with open('README.md') as f:
+              readme = f.read()
+
+          new_readme = re.sub(
+              r'<!-- TRAFFIC-STATS-START -->.*?<!-- TRAFFIC-STATS-END -->',
+              block,
+              readme,
+              flags=re.DOTALL
+          )
+
+          with open('README.md', 'w') as f:
+              f.write(new_readme)
+
+          print(f"Views: {tv} ({uv} unique) | Clones: {tc} ({uc} unique)")
+          PYEOF
+
+      - name: Commit updated stats
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add .github/traffic-data.json README.md
+          git diff --staged --quiet || git commit -m "chore: update traffic stats [skip ci]"
+          git push
