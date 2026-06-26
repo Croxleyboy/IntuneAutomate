@@ -85,8 +85,8 @@ Please see our [CONTRIBUTING.md](./CONTRIBUTING.md) for guidelines on how to get
 <!-- TRAFFIC-STATS-START -->
 | Metric | Total | Unique |
 |--------|------:|-------:|
-| 👁️ Views  | 1291  | 532  |
-| 📦 Clones | 1552  | 672  |
+| 👁️ Views  | 1297  | 536  |
+| 📦 Clones | 1569  | 681  |
 
 *Cumulative since tracking began · updated daily*
 <!-- TRAFFIC-STATS-END -->
